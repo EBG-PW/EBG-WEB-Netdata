@@ -1,0 +1,3 @@
+module.exports = {
+    "allowed_metric_contexts": ["system.cpu", "system.load", "system.ram", "mem.swap", "system.net", "net.packets", "disk.io", "disk.ops", "disk.space", "cpufreq.cpufreq", "smartctl.device_smart_status", "smartctl.device_ata_smart_error_log_count", "smartctl.device_power_on_time", "smartctl.device_temperature", "sensors.chip_sensor_power_average", "sensors.chip_sensor_temperature systemd.service"]
+}

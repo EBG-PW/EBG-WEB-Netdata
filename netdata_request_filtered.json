@@ -1,0 +1,1913 @@
+[
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "guest_nice",
+        "value": 0
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "guest",
+        "value": 0
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "steal",
+        "value": 0
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "softirq",
+        "value": 0.0031299
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "irq",
+        "value": 0
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "user",
+        "value": 0.093837
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "system",
+        "value": 0.2565198
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "nice",
+        "value": 0.1939367
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "iowait",
+        "value": 0.0031269
+    },
+    {
+        "chart_id": "system.cpu",
+        "chart_context": "system.cpu",
+        "units": "percentage",
+        "id": "idle",
+        "value": 99.44945
+    },
+    {
+        "chart_id": "net_packets.enp5s0f0",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "received",
+        "value": 0.5000003
+    },
+    {
+        "chart_id": "net_packets.enp5s0f0",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "sent",
+        "value": 0
+    },
+    {
+        "chart_id": "net_packets.enp5s0f0",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "multicast",
+        "value": 0.5
+    },
+    {
+        "chart_id": "disk_space./",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 391.5462
+    },
+    {
+        "chart_id": "disk_space./",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 9.005905
+    },
+    {
+        "chart_id": "disk_space./",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 21.50967
+    },
+    {
+        "chart_id": "disk_space./run",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 12.575245
+    },
+    {
+        "chart_id": "disk_space./run",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0028191
+    },
+    {
+        "chart_id": "disk_space./run",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_space./mnt/sdad",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdad",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdad",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./boot",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 0.707756
+    },
+    {
+        "chart_id": "disk_space./boot",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.1772232
+    },
+    {
+        "chart_id": "disk_space./boot",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 0.0656242
+    },
+    {
+        "chart_id": "net_packets.enp130s0f0",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "received",
+        "value": 0
+    },
+    {
+        "chart_id": "net_packets.enp130s0f0",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "sent",
+        "value": 0
+    },
+    {
+        "chart_id": "net_packets.enp130s0f0",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "multicast",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_space./mnt/sdab",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.65
+    },
+    {
+        "chart_id": "disk_space./mnt/sdab",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 12.760666
+    },
+    {
+        "chart_id": "disk_space./mnt/sdab",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdf",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdf",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdf",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu0",
+        "value": 1199.7237
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu1",
+        "value": 1420
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu2",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu3",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu4",
+        "value": 1199.7253
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu5",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu6",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu7",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu8",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu9",
+        "value": 1349.3964
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu10",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu11",
+        "value": 2162.0131
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu12",
+        "value": 1198.1853
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu13",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu14",
+        "value": 1199.7339
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu15",
+        "value": 1228.686
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu16",
+        "value": 1200.0722
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu17",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu18",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu19",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu20",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu21",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu22",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu23",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu24",
+        "value": 1200
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu25",
+        "value": 1265.3898
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu26",
+        "value": 1197.2338
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu27",
+        "value": 1199.7307
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu28",
+        "value": 1199.7642
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu29",
+        "value": 1199.2316
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu30",
+        "value": 1197.6037
+    },
+    {
+        "chart_id": "cpu.cpufreq",
+        "chart_context": "cpufreq.cpufreq",
+        "units": "MHz",
+        "id": "cpu31",
+        "value": 1409.5437
+    },
+    {
+        "chart_id": "disk_space./mnt/sdac",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.641
+    },
+    {
+        "chart_id": "disk_space./mnt/sdac",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 12.769566
+    },
+    {
+        "chart_id": "disk_space./mnt/sdac",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdj",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdj",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdj",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdh",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.159
+    },
+    {
+        "chart_id": "disk_space./mnt/sdh",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 13.251381
+    },
+    {
+        "chart_id": "disk_space./mnt/sdh",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdaa",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5238.897
+    },
+    {
+        "chart_id": "disk_space./mnt/sdaa",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 25.51364
+    },
+    {
+        "chart_id": "disk_space./mnt/sdaa",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "net_packets.enp5s0f1",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "received",
+        "value": 0
+    },
+    {
+        "chart_id": "net_packets.enp5s0f1",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "sent",
+        "value": 0
+    },
+    {
+        "chart_id": "net_packets.enp5s0f1",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "multicast",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_space./mnt/sde",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sde",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sde",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdg",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.371
+    },
+    {
+        "chart_id": "disk_space./mnt/sdg",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 1.0399017
+    },
+    {
+        "chart_id": "disk_space./mnt/sdg",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdi",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.635
+    },
+    {
+        "chart_id": "disk_space./mnt/sdi",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 12.775364
+    },
+    {
+        "chart_id": "disk_space./mnt/sdi",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "net_packets.enp130s0f1",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "received",
+        "value": 118.8500543
+    },
+    {
+        "chart_id": "net_packets.enp130s0f1",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "sent",
+        "value": -42.6999929
+    },
+    {
+        "chart_id": "net_packets.enp130s0f1",
+        "chart_context": "net.packets",
+        "units": "packets/s",
+        "id": "multicast",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_space./mnt/sdk",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.884
+    },
+    {
+        "chart_id": "disk_space./mnt/sdk",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.5266495
+    },
+    {
+        "chart_id": "disk_space./mnt/sdk",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "system.net",
+        "chart_context": "system.net",
+        "units": "kilobits/s",
+        "id": "InOctets",
+        "value": 68.8020414
+    },
+    {
+        "chart_id": "system.net",
+        "chart_context": "system.net",
+        "units": "kilobits/s",
+        "id": "OutOctets",
+        "value": -2396.3712489
+    },
+    {
+        "chart_id": "disk_space./mnt/sdu",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdu",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdu",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdp",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.93
+    },
+    {
+        "chart_id": "disk_space./mnt/sdp",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.4807968
+    },
+    {
+        "chart_id": "disk_space./mnt/sdp",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdt",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdt",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdt",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdx",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.653
+    },
+    {
+        "chart_id": "disk_space./mnt/sdx",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 12.757095
+    },
+    {
+        "chart_id": "disk_space./mnt/sdx",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdo",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.91
+    },
+    {
+        "chart_id": "disk_space./mnt/sdo",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.5006828
+    },
+    {
+        "chart_id": "disk_space./mnt/sdo",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sds",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sds",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sds",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdl",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.657
+    },
+    {
+        "chart_id": "disk_space./mnt/sdl",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 12.752953
+    },
+    {
+        "chart_id": "disk_space./mnt/sdl",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdz",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.9
+    },
+    {
+        "chart_id": "disk_space./mnt/sdz",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.5106468
+    },
+    {
+        "chart_id": "disk_space./mnt/sdz",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdm",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.641
+    },
+    {
+        "chart_id": "disk_space./mnt/sdm",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 12.769566
+    },
+    {
+        "chart_id": "disk_space./mnt/sdm",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdv",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdv",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdv",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdq",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5264.41
+    },
+    {
+        "chart_id": "disk_space./mnt/sdq",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.0000153
+    },
+    {
+        "chart_id": "disk_space./mnt/sdq",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdr",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.833
+    },
+    {
+        "chart_id": "disk_space./mnt/sdr",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.5771103
+    },
+    {
+        "chart_id": "disk_space./mnt/sdr",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdw",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5237.805
+    },
+    {
+        "chart_id": "disk_space./mnt/sdw",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 26.60548
+    },
+    {
+        "chart_id": "disk_space./mnt/sdw",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdy",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5251.106
+    },
+    {
+        "chart_id": "disk_space./mnt/sdy",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 13.304619
+    },
+    {
+        "chart_id": "disk_space./mnt/sdy",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "disk_space./mnt/sdn",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "avail",
+        "value": 5263.884
+    },
+    {
+        "chart_id": "disk_space./mnt/sdn",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "used",
+        "value": 0.5266495
+    },
+    {
+        "chart_id": "disk_space./mnt/sdn",
+        "chart_context": "disk.space",
+        "units": "GiB",
+        "id": "reserved_for_root",
+        "value": 279.467
+    },
+    {
+        "chart_id": "system.ram",
+        "chart_context": "system.ram",
+        "units": "MiB",
+        "id": "free",
+        "value": 75747.526
+    },
+    {
+        "chart_id": "system.ram",
+        "chart_context": "system.ram",
+        "units": "MiB",
+        "id": "used",
+        "value": 2621.9915
+    },
+    {
+        "chart_id": "system.ram",
+        "chart_context": "system.ram",
+        "units": "MiB",
+        "id": "cached",
+        "value": 45238.43
+    },
+    {
+        "chart_id": "system.ram",
+        "chart_context": "system.ram",
+        "units": "MiB",
+        "id": "buffers",
+        "value": 5191.4004
+    },
+    {
+        "chart_id": "mem.swap",
+        "chart_context": "mem.swap",
+        "units": "MiB",
+        "id": "free",
+        "value": 32767.98
+    },
+    {
+        "chart_id": "mem.swap",
+        "chart_context": "mem.swap",
+        "units": "MiB",
+        "id": "used",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sda",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 68.652952
+    },
+    {
+        "chart_id": "disk.sda",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": -7.846298
+    },
+    {
+        "chart_id": "disk_ops.sda",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 2.8031833
+    },
+    {
+        "chart_id": "disk_ops.sda",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": -3.2968217
+    },
+    {
+        "chart_id": "disk.sdb",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 56.2579595
+    },
+    {
+        "chart_id": "disk.sdb",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": -7.846246
+    },
+    {
+        "chart_id": "disk_ops.sdb",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 2.5032247
+    },
+    {
+        "chart_id": "disk_ops.sdb",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": -3.2967775
+    },
+    {
+        "chart_id": "disk.sdc",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 50.869524
+    },
+    {
+        "chart_id": "disk.sdc",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": -15.4375049
+    },
+    {
+        "chart_id": "disk_ops.sdc",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 2.1527196
+    },
+    {
+        "chart_id": "disk_ops.sdc",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": -4.2945591
+    },
+    {
+        "chart_id": "disk.sdd",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 58.0527857
+    },
+    {
+        "chart_id": "disk.sdd",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": -15.4373409
+    },
+    {
+        "chart_id": "disk_ops.sdd",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 2.5527527
+    },
+    {
+        "chart_id": "disk_ops.sdd",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": -4.2944889
+    },
+    {
+        "chart_id": "disk.md0",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 233.8405
+    },
+    {
+        "chart_id": "disk.md0",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": -19.5910781
+    },
+    {
+        "chart_id": "disk_ops.md0",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 10.0122641
+    },
+    {
+        "chart_id": "disk_ops.md0",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": -4.397766
+    },
+    {
+        "chart_id": "disk.sdg",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdg",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdg",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdg",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sde",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sde",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sde",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sde",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdf",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdf",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdf",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdf",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdh",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdh",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdh",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdh",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdj",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdj",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdj",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdj",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdi",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdi",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdi",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdi",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdm",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdm",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdm",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdm",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdl",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdl",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdl",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdl",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdk",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdk",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdk",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdk",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdp",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdp",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdp",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdp",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdn",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdn",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdn",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdn",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdq",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdq",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdq",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdq",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdo",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdo",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdo",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdo",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sds",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sds",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sds",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sds",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdr",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdr",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdr",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdr",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdu",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdu",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdu",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdu",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdw",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdw",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdw",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdw",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdt",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdt",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdt",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdt",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdy",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdy",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdy",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdy",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdx",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdx",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdx",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdx",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdaa",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdaa",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdaa",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdaa",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdad",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdad",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdad",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdad",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdac",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdac",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdac",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdac",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdz",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdz",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdz",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdz",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdab",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdab",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdab",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdab",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdv",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk.sdv",
+        "chart_context": "disk.io",
+        "units": "KiB/s",
+        "id": "writes",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdv",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "reads",
+        "value": 0
+    },
+    {
+        "chart_id": "disk_ops.sdv",
+        "chart_context": "disk.ops",
+        "units": "operations/s",
+        "id": "writes",
+        "value": 0
+    }
+]

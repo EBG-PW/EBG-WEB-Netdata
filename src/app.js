@@ -7,7 +7,7 @@ const app = new HyperExpress.Server({
 
 const { log_errors } = require('@config/errors')
 
-const apiv1 = require('@api');
+const apiv1 = require('@src/netdata_interface');
 app.use('/api/v1', apiv1);
 
 /* Handlers */
@@ -28,16 +28,6 @@ app.set_error_handler((req, res, error) => {
         outError.info = error.message
         outError.reason = error.details
         outError.statusCode = 400;
-    }
-
-    /* Returns 401 if the client is not authorized*/
-    if (error.message === "Token not provided" || error.message === "Token Invalid") {
-        statusCode = 401;
-    }
-
-    /* Returns 403 if the client is not allowed to do something*/
-    if (error.message === "NoPermissions" || error.message === "Permission Denied") {
-        statusCode = 403;
     }
 
     /* Returns 429 if the client is ratelimited*/

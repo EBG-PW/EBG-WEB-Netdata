@@ -1,0 +1,36 @@
+{
+  "name": "netdata_insertion",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npx npm-check-updates -u",
+    "start": "node index.js"
+  },
+  "author": "BolverBlitz",
+  "license": "AGPL-3.0",
+  "_moduleAliases": {
+    "@src": "./src",
+    "@lib": "./lib",
+    "@middleware": "./middleware",
+    "@config": "./config"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "bullmq": "^5.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "error-stack-parser": "^2.1.4",
+    "hyper-express": "^6.14.12",
+    "ioredis": "^5.3.2",
+    "module-alias": "^2.2.3",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.3.0"
+  }
+}

@@ -2,16 +2,18 @@ const HyperExpress = require('hyper-express');
 const path = require('path');
 const ejs = require('ejs');
 const app = new HyperExpress.Server({
+    max_body_length: process.env.HE_MAX_BODY_LENGTH || 50 * 1024 * 1024,
     fast_buffers: process.env.HE_FAST_BUFFERS == 'false' ? false : true || false,
 });
 
 const { log_errors } = require('@config/errors')
 
-const apiv1 = require('@src/netdata_interface');
-app.use('/api/v1', apiv1);
+const netdata = require('@src/netdata_interface');
+app.use('/api', netdata);
 
 /* Handlers */
 app.set_error_handler((req, res, error) => {
+    console.log(error)
     process.log.debug(error);
     const outError = {
         message: error.message || "",

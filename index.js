@@ -22,7 +22,7 @@ process.log = log;
                     process.log.system(`Webserver was delayed by ${process.env.ExtraErrorWebDelay || 500}ms beause of a error.`);
                 }
                 app.listen(port, bindip)
-                    .then((socket) => process.log.system(`Listening on port: ${port}`))
+                    .then((socket) => process.log.system(`Listening on: ${bindip}:${port}`))
                     .catch((error) => process.log.error(`Failed to start webserver on: ${port}\nError: ${error}`));
             }, 1500);
         }, process.env.GlobalWaitTime || 100);

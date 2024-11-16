@@ -2,6 +2,7 @@
     "compilerOptions": {
       "baseUrl": "./",
       "module": "commonjs",
+      "allowJs": true,
       "paths": {
         "@lib/*": ["./lib/*"],
         "@src/*": ["./src/*"],

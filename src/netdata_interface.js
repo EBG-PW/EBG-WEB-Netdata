@@ -2,7 +2,7 @@
 const HyperExpress = require('hyper-express');
 // const { writeOverwriteCacheKey } = require('@lib/cache');
 const { gzipCompress, gzipDecompress } = require('@lib/object_compressor');
-const { GetNetdataMonitor, SaveNetdataNodeChart } = require('@lib/redis');
+const { GetNetdataMonitor, SaveNetdataNodeChart, SaveNetdataNodeOverview, ReadNetdataNodeOverview } = require('@lib/redis');
 const { parseNetdata } = require('@lib/netdata_parser');
 const NetdataCharts = require('@lib/netdata_charts');
 const router = new HyperExpress.Router();
@@ -15,10 +15,11 @@ router.post('/put', /* limiter(1) ,*/ async (req, res) => {
   const chart_fields = NetdataCharts.listCharts(monitor_config.charts); // Convert the bit-mask to a list of chart fields
   console.log(monitor_config, chart_fields);
 
+  // Iterate over each chart field
   chart_fields.forEach(async (chart) => {
     const metricNamesForChart = NetdataCharts.getChartFields(chart);
     process.log.debug(`Saving chart ${chart} for ${parsedData.hostname}: ${metricNamesForChart.join(', ')}`);
-
+    // Iterate over each metric in the chart, one chart can have multiple metrics (CPU has user, system, etc.)
     metricNamesForChart.forEach(async (metric, index) => {
       const chartData = parsedData.metrics[metric];
       if (chartData) {
@@ -33,18 +34,20 @@ router.post('/put', /* limiter(1) ,*/ async (req, res) => {
 
   // Measure compression and decompression for gzip
   console.time("Gzip Compression");
-  const compressedData_b = gzipCompress(parsedData);
+  const compressedData = gzipCompress(parsedData);
   console.timeEnd("Gzip Compression");
 
+  SaveNetdataNodeOverview(parsedData.hostname, reqIP, compressedData); // Save the overview data (non-chart data)
+
   console.time("Gzip Decompression");
-  const decompressedData_b = gzipDecompress(compressedData_b);
+  const decompressedData = gzipDecompress(compressedData);
   console.timeEnd("Gzip Decompression");
 
   // Output sizes for comparison
   console.log("Original Data Size:", Buffer.byteLength(JSON.stringify(parsedData), 'utf8'), "bytes");
-  console.log("Gzip Compressed Data Size:", compressedData_b.length, "bytes");
-  console.log("Decompressed Data Size (Gzip):", Buffer.byteLength(JSON.stringify(decompressedData_b), 'utf8'), "bytes");
-  console.log("Storrage Size Avaible:", decompressedData_b.metrics["disk.space.avail"].value, decompressedData_b.metrics["disk.space.avail"].units);
+  console.log("Gzip Compressed Data Size:", compressedData.length, "bytes");
+  console.log("Decompressed Data Size from Netdata Input (Gzip):", Buffer.byteLength(JSON.stringify(decompressedData), 'utf8'), "bytes");
+  // console.log("Storrage Size Avaible:", decompressedData.metrics["disk.space.avail"].value, decompressedData.metrics["disk.space.avail"].units);
 
   // console.log(JSON.stringify(parsedData, null, 2));
 

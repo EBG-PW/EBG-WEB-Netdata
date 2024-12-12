@@ -37,7 +37,7 @@ router.post('/put', /* limiter(1) ,*/ async (req, res) => {
   const compressedData = gzipCompress(parsedData);
   console.timeEnd("Gzip Compression");
 
-  SaveNetdataNodeOverview(parsedData.hostname, reqIP, compressedData); // Save the overview data (non-chart data)
+  SaveNetdataNodeOverview(parsedData.hostname, reqIP, compressedData, monitor_config.chart_hours); // Save the overview data (non-chart data)
 
   console.time("Gzip Decompression");
   const decompressedData = gzipDecompress(compressedData);

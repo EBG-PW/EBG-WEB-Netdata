@@ -1,6 +1,5 @@
 // const { limiter } = require('@middleware/limiter');
 const HyperExpress = require('hyper-express');
-// const { writeOverwriteCacheKey } = require('@lib/cache');
 const { gzipCompress, gzipDecompress } = require('@lib/object_compressor');
 const { GetNetdataMonitor, SaveNetdataNodeChart, SaveNetdataNodeOverview, ReadNetdataNodeOverview } = require('@lib/redis');
 const { parseNetdata } = require('@lib/netdata_parser');
@@ -15,7 +14,7 @@ router.post('/put', /* limiter(1) ,*/ async (req, res) => {
   const chart_fields = NetdataCharts.listCharts(monitor_config.charts); // Convert the bit-mask to a list of chart fields
   console.log(monitor_config, chart_fields);
 
-  // Iterate over each chart field
+  // Iterate over each chart field and save them in Redis as new key
   chart_fields.forEach(async (chart) => {
     const metricNamesForChart = NetdataCharts.getChartFields(chart);
     process.log.debug(`Saving chart ${chart} for ${parsedData.hostname}: ${metricNamesForChart.join(', ')}`);
@@ -27,6 +26,9 @@ router.post('/put', /* limiter(1) ,*/ async (req, res) => {
       }
     });
   });
+
+  //Object.values(individual.disk).every((disk) => disk["device_smart_status.ok"] === 1); // Check if all disks are healthy
+  // Send Email if any disk is unhealthy
 
 
   // Validate IP address and Hostname
